@@ -1,5 +1,9 @@
 <html>
 
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+</head>
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 <!--  If necessary, please modify the charset parameter to specify the        -->
@@ -8,15 +12,15 @@
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-    <!--  ----------------------------------------------------------------------  -->
-    <!--  NOTE: Please add the following <FORM> element to your page.             -->
-    <!--  ----------------------------------------------------------------------  -->
-    
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-    
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
     <input type=hidden name="oid" value="00DIw000000Bu9s">
     <input type=hidden name="retURL" value="http://">
-    
+
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
     <!--  these lines if you wish to test in debug mode.                          -->
@@ -24,23 +28,22 @@
     <!--  <input type="hidden" name="debugEmail"                                  -->
     <!--  value="rdcxwfjsqx@privaterelay.appleid.com">                            -->
     <!--  ----------------------------------------------------------------------  -->
-    
-    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-    
-    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-    
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    
-    <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
-    
-    experience with us:<select  id="00NIw000000nnLx" name="00NIw000000nnLx" title="experience with us"><option value="">--None--</option><option value="Very Good">Very Good</option>
+
+    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+    <label for="city">City</label><input id="city" maxlength="40" name="city" size="20" type="text" /><br> Experience with us:<select id="00NIw000000nnLx" name="00NIw000000nnLx" title="experience with us"><option value="">--None--</option><option value="Very Good">Very Good</option>
     <option value="Good">Good</option>
     <option value="Average">Average</option>
     <option value="Poor">Poor</option>
     <option value="Very Poor">Very Poor</option>
     </select><br>
-    
+
     <input type="submit" name="submit">
-    
-    </form>
-    </html>
+
+</form>
+
+</html>
